@@ -108,3 +108,7 @@ Python >= 3.4.1:
 		The average results for 5 cross validations are:
 		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
 		0.813          0.854          0.817          0.900
+
+## Next Steps :	
+Try the R* algorithm.  
+Work on the optimization of the GradientBoosting.
