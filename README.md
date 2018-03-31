@@ -68,14 +68,14 @@ Python >= 3.4.1:
 		0.842          0.792          0.863          0.932
 	Expected Accuray: processed.all.data
 		The data was randomly shuffled and tested using a 10-fold cross validation technique.
-		The average results are:
+		The average results for 5 cross validation are:
 		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
 		0.827          0.872          0.825          0.891
 		
-#### SVM Classifier
-	A Naive Bayes classifier for multivariate Bernoulli classifier is used for making predictions.
+#### Naive Bayes Classifier
+	A Naive Bayes classifier for multivariate Bernoulli is used for making predictions.
 	Please keep in mind that using this classifier for this dataset is clearly not a good choice.
-	Only for demonstration purpose, accuracy for the small dataset is surprinsigly good. 
+	Made only for demonstration purpose : accuracy for the small dataset is quite good. 
 	The output is a probability representing the likelihood of the 
 	presence of heart disease.
 
@@ -86,6 +86,6 @@ Python >= 3.4.1:
 		0.832          0.821          0.812          0.905
 	Expected Accuray: processed.all.data
 		The data was randomly shuffled and tested using a 10-fold cross validation technique.
-		The average results are:
+		The average results for 5 cross validation are:
 		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
-		0.827          0.872          0.825          0.891
+		0.798          0.805          0.826          0.875
