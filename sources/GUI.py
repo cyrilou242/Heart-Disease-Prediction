@@ -2,14 +2,11 @@
 
 # TODO Rendre la GUI executer quand on l'appelle dans le terminal
 
-import tkinter as tk
-from tkinter import ttk
-from tkinter import scrolledtext
-from tkinter import Menu
-from tkinter import Spinbox
-from tkinter import messagebox as mBox
 import os
-
+import tkinter as tk
+from tkinter import Menu
+from tkinter import messagebox as mBox
+from tkinter import ttk
 
 #set des variables en fonction de l'OS :
 #TODO packager tout ca dans une fonction
@@ -447,7 +444,7 @@ def HeartAIModel(data_string, algo=0):
     Appelle un algorithme de prédiction avec les données renseignées et renvoie son résultat """
     print(data_string)
     if algo == 0:
-        from HeartAI import main
+        from sources.HeartAI import main
         output = main(data_string)
     return output
 
