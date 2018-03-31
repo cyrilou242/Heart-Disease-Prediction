@@ -2,12 +2,13 @@ French version can be found in [README-FR.md](README-FR.md)
 
 # Heart-Disease-Prediction
 Heart Disease Angiographic Prediction.
-This is an implementation of 3 machine learning classifier for demonstration purpose to medical staff in a French Hospital. Documentation in French about this project can be found in [documentation ](/documentation)
+This is an implementation of 3 machine learning classifier for demonstration purpose to medical staff in a French Hospital. 
+mentation in French about this project can be found in [documentation ](/documentation).
 ML implementation structure is directly inspired from the project [Heart_Disease_Prediction](https://github.com/bveber/Heart_Disease_Prediction) by [Brandon Veber](https://github.com/bveber).  
 The GUI has been re-written in Python using tkinter GUI toolkit.  
 The GUI is in French. Values can be initialized with 4 examples samples. This has been added for demonstration purpose.
 
-Nota Bene : The result of the prediction is given in a box that asks the user (doctor) to validate or not the prediction. This has been made for eductationnal purpose, to show the doctors how they could improve the existing model by adding their data. Their is no implementation behind. (even if it would not be difficult). There is no plan to add one.
+Nota Bene : The result of the prediction is given in a box that asks the user (doctor) to validate or not the prediction. This has been made for educationnal purpose, to show the doctors how they could improve the existing model by adding their data. Their is no implementation behind. (even if it would not be difficult). There is no plan to add one.
 
 Nota Bene 2 : code is duplicated for the 3 ml algorithms and could be refactored way better.
 
