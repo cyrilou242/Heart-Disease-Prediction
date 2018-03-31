@@ -3,7 +3,7 @@ La version anglaise peut être trouvé dans le [README.md](README.md)
 
 # Heart-Disease-Prediction
 Prédiction de Maladie cardiaque : résultat d'une angiographie.
-Implémentation de 3 algorithmes de classification dans le but de réaliser une démonstration à des équipes médicales d'un hopital en France.  
+Implémentation de 3 algorithmes de classification dans le but de réaliser une démonstration à des équipes médicales d'un hôpital en France.  
 La documentation de ce projet peut être trouvée dans [documentation ](/documentation).
 La structure de l'implémentation des classificateurs est directement inspirée du projet [Heart_Disease_Prediction](https://github.com/bveber/Heart_Disease_Prediction) de [Brandon Veber](https://github.com/bveber).  
 L'interface graphique a été réécrite en Python en utilisant la bibilothèque graphique tkinter.  
