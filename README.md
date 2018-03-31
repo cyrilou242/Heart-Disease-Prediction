@@ -12,8 +12,11 @@ Nota Bene : The result of the prediction is given in a box that asks the user (d
 To run, run GUI.py with python3. Some librairies may be needed.
 
 Author: Cyril de Catheu 
+
 Created: 31-03-2018 
+
 Last Modified: 31-03-2018 
+
 Tested on OS X Sierra, Windows 8 
 
 # Requires:
