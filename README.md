@@ -2,9 +2,9 @@ French version Below
 
 # Heart-Disease-Prediction
 Heart Disease Angiographic Prediction.
-This is an implementation of 3 machine learning classifier for demonstration purpose to medical staff in a French Hospital.
-ML implementation structure is directly inspired from the project [Heart_Disease_Prediction](https://github.com/bveber/Heart_Disease_Prediction) by [Brandon Veber](https://github.com/bveber). 
-The GUI has been re-written in Python using tkinter GUI toolkit. 
+This is an implementation of 3 machine learning classifier for demonstration purpose to medical staff in a French Hospital. Documentation in French about this project can be found in [documentation ](/documentation)
+ML implementation structure is directly inspired from the project [Heart_Disease_Prediction](https://github.com/bveber/Heart_Disease_Prediction) by [Brandon Veber](https://github.com/bveber).  
+The GUI has been re-written in Python using tkinter GUI toolkit.  
 The GUI is in French. Values can be initialized with 4 examples samples. This has been added for demonstration purpose.
 
 Nota Bene : The result of the prediction is given in a box that asks the user (doctor) to validate or not the prediction. This has been made for eductationnal purpose, to show the doctors how they could improve the existing model by adding their data. Their is no implementation behind. (even if it would not be difficult). There is no plan to add one.
@@ -30,7 +30,7 @@ Python >= 3.4.1:
 	The data is from the UCI Machine Learning Repository Heart Disease Data Set: 
 	https://archive.ics.uci.edu/ml/datasets/Heart-Disease
 	procesessed.cleveland.data contains 303 samples with 13 input features, and target value.
-	procesessed.all.data contains 920 samples. Data is a bit more sparse.
+	procesessed.all.data contains 920 samples. Data is more sparse in this dataset.
 
  
 ### Input Features :
@@ -69,7 +69,7 @@ Python >= 3.4.1:
 		0.842          0.792          0.863          0.932
 	Expected Accuray: processed.all.data
 		The data was randomly shuffled and tested using a 10-fold cross validation technique.
-		The average results for 5 cross validation are:
+		The average results for 5 cross validations are:
 		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
 		0.827          0.872          0.825          0.891
 		
@@ -87,6 +87,23 @@ Python >= 3.4.1:
 		0.832          0.821          0.812          0.905
 	Expected Accuray: processed.all.data
 		The data was randomly shuffled and tested using a 10-fold cross validation technique.
-		The average results for 5 cross validation are:
+		The average results for 5 cross validations are:
 		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
 		0.798          0.805          0.826          0.875
+		
+#### Gradient Boosting Classifier
+	A Gradient Boosting classifier is used for making predictions.
+	This algorithm is the only one that got better results when scaling to the full dataset.
+	The output is a probability representing the likelihood of the 
+	presence of heart disease.
+
+	Expected Accuray: processed.cleveland.data
+		The data was tested using a 10-fold cross validation technique.
+		The results are:
+		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
+		0.795          0.758          0.800          0.914
+	Expected Accuray: processed.all.data
+		The data was randomly shuffled and tested using a 10-fold cross validation technique.
+		The average results for 5 cross validations are:
+		Avg Accuracy   Avg Recall     Avg Precision  Avg ROC_AUC
+		0.813          0.854          0.817          0.900
