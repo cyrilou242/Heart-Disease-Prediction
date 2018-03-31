@@ -28,8 +28,7 @@ Python >= 3.4.1:
 
 ## Prediction Technical Specifications:
 ### Data:
-	The data is from the UCI Machine Learning Repository Heart Disease Data Set.
-	https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+	The data is from the [UCI Machine Learning Repository Heart Disease Data Set](https://archive.ics.uci.edu/ml/datasets/Heart+Disease).
 	procesessed.cleveland.data contains 303 samples with 13 input features, and target value.
 	procesessed.all.data contains 920 samples. Data is a bit more sparse.
 
