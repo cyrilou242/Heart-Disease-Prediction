@@ -21,7 +21,7 @@ Python >= 3.4.1:
 	Python package dependencies:
 		sklearn >= 0.16.1
 		numpy   >= 1.9.0
-		pandas  >= 0.15.0
+		pandas  >= 0.15.0 
 
 # Prediction Technical Specifications:
 ## Data:
