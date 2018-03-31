@@ -19,22 +19,22 @@ Last Modified: 31-03-2018
 
 Tested on OS X Sierra, Windows 8 
 
-# Requires:
+## Requires:
 Python >= 3.4.1:
 	Python package dependencies:
 		sklearn >= 0.16.1
 		numpy   >= 1.9.0
 		pandas  >= 0.15.0 
 
-# Prediction Technical Specifications:
-## Data:
+## Prediction Technical Specifications:
+### Data:
 	The data is from the UCI Machine Learning Repository Heart Disease Data Set.
 	https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 	procesessed.cleveland.data contains 303 samples with 13 input features, and target value.
 	procesessed.all.data contains 920 samples. Data is a bit more sparse.
 
  
-## Input Features :
+### Input Features :
 	Age - real number
 	Sex - categorical
 	Chest pain type - categorical
@@ -49,16 +49,16 @@ Python >= 3.4.1:
 	Number of major vessels colored by floroscopy - real number
 	Thallium heart scan - categorical
 
-## Feature encoding:
+### Feature encoding:
 	All categorical features are converted to binary using a 
 	one-hot encoder
 
-## Feature normalization:
+### Feature normalization:
 	All real numbers are scaled using a standard scaler (subtract mean
 	and divide by standard deviation)
 
-## Machine Learning Algorithm:
-### SVM Classifier
+### Machine Learning Algorithm:
+#### SVM Classifier
 	A radial basis kernel SVM classifier is used for making predictions.
 	The output is a probability representing the likelihood of the 
 	presence of heart disease.
