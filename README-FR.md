@@ -73,10 +73,9 @@ Python >= 3.4.1:
 		0.827          0.872          0.825          0.891
 		
 #### Naive Bayes Classifier
-	Un modèle bayésien naif à multiple Bernoulliest utilisé.
+	Un modèle bayésien naif à multiple Bernoulli est utilisé.
 	Noter que ce modèle n'est évidemment pas un bon choix pour ce problème.
-	Made only for demonstration purpose : accuracy for the small dataset is quite good. 
-	Le résultat est une probabilité que le patient ait un résultat d'angiographie révélant une sténose de plus de 50%.
+	Réalisé dans un but pédagogique pour montrer que les résultats pour le petit jeu de données étaient plutot bons. 
 
 	Dataset : processed.cleveland.data
 		Les données ont été testées en 10-fold cross validation
@@ -90,9 +89,9 @@ Python >= 3.4.1:
 		0.798          0.805          0.826          0.875
 		
 #### Gradient Boosting Classifier
-	A Gradient Boosting classifier is used for making predictions.
-	This algorithm is the only one that got better results when scaling to the full dataset.
-	Le résultat est une probabilité que le patient ait un résultat d'angiographie révélant une sténose de plus de 50%.
+	Un algorithme Gradient Boosting est utilisé.
+	L'optimisation des paramètres à posé des difficultés, il n'est pas dit que ceux implémentés soient les meilleurs.
+	Cette algorithme est le seul à avoir progressé en passant du petit jeu de données au jeu complet.
 
 	Dataset : processed.cleveland.data
 		Les données ont été testées en 10-fold cross validation
@@ -106,4 +105,5 @@ Python >= 3.4.1:
 		0.813          0.854          0.817          0.900
 		
 ## Next Steps :	
-Essayer avec les algorithme R* et LogitBoost
+Essayer avec un algorithme R*.  
+Travailler sur l'optimisation du GradientBoosting.
