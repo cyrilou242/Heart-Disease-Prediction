@@ -1,7 +1,7 @@
 French version Below
 
 # Heart-Disease-Prediction
-Heart Disease Angiographic Prediction /  Prediction Maladie Caridiaque résultat angiographique
+Heart Disease Angiographic Prediction.
 This is an implementation of 3 machine learning algorithms for demonstration purpose to medical staff in a French Hospital.
 ML implementation structure is directly inspired from the project [Heart_Disease_Prediction](https://github.com/bveber/Heart_Disease_Prediction) by [Brandon Veber](https://github.com/bveber). 
 The GUI has been re-written in Python using tkinter GUI toolkit. 
