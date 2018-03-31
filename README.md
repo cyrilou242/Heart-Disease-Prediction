@@ -10,7 +10,7 @@ The GUI is in French. Values can be initialized with 4 examples samples. This ha
 
 Nota Bene : The result of the prediction is given in a box that asks the user (doctor) to validate or not the prediction. This has been made for educationnal purpose, to show the doctors how they could improve the existing model by adding their data. Their is no implementation behind. (even if it would not be difficult). There is no plan to add one.
 
-Nota Bene 2 : code is duplicated for the 3 ml algorithms and could be refactored way better.
+Nota Bene 2 : code is duplicated for the 3 classification algorithms and could be refactored way better.
 
 To run, run GUI.py with python3.
 
