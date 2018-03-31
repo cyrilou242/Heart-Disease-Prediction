@@ -1,4 +1,4 @@
-French version Below
+French version can be found in [README-FR.md](README-FR.md)
 
 # Heart-Disease-Prediction
 Heart Disease Angiographic Prediction.
