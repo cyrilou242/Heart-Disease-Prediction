@@ -8,6 +8,14 @@ ML implementation structure is directly inspired from the project [Heart_Disease
 The GUI has been re-written in Python using tkinter GUI toolkit.  
 The GUI is in French. Values can be initialized with 4 examples samples. This has been added for demonstration purpose.
 
+
+<p align="center"> 
+<a href="https://github.com/cyrilou242/Heart-Disease-Prediction/tree/master/documentation/heart_disease_prediction_ui.gif">
+
+![heart_disease_prediction_ui](documentation/heart_disease_prediction_ui.gif)
+</a>
+</p>
+
 Nota Bene : The result of the prediction is given in a box that asks the user (doctor) to validate or not the prediction. This has been made for educationnal purpose, to show the doctors how they could improve the existing model by adding their data. Their is no implementation behind. (even if it would not be difficult). There is no plan to add one.
 
 Nota Bene 2 : code is duplicated for the 3 classification algorithms and could be refactored way better.
